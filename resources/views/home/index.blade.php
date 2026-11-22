@@ -6,7 +6,7 @@
 
     <div class="text-center mb-5">
         <h1 class="h2">Seguimientos</h1>
-        <p class="text-muted mb-0">Cinco ejercicios resueltos con la arquitectura MVC</p>
+        <p class="text-muted mb-0">Diez ejercicios resueltos con la arquitectura MVC</p>
     </div>
 
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">

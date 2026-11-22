@@ -44,6 +44,41 @@ class HomeController extends Controller
                 'ruta'        => 'reservations.index',
                 'icono'       => 'bi-calendar-check',
             ],
+            [
+                'n'           => 6,
+                'titulo'      => 'Gestor de Notas',
+                'descripcion' => 'Notas organizadas por categoría y con buscador.',
+                'ruta'        => 'notes.index',
+                'icono'       => 'bi-journal-text',
+            ],
+            [
+                'n'           => 7,
+                'titulo'      => 'Calendario de Eventos',
+                'descripcion' => 'Agrega, edita y elimina eventos, con recordatorios.',
+                'ruta'        => 'events.index',
+                'icono'       => 'bi-calendar3',
+            ],
+            [
+                'n'           => 8,
+                'titulo'      => 'Plataforma de Recetas',
+                'descripcion' => 'Busca y guarda recetas filtrando por tipo e ingredientes.',
+                'ruta'        => 'recipes.index',
+                'icono'       => 'bi-egg-fried',
+            ],
+            [
+                'n'           => 9,
+                'titulo'      => 'Juego de Memoria',
+                'descripcion' => 'Empareja cartas con distintos niveles y puntajes.',
+                'ruta'        => 'memory.index',
+                'icono'       => 'bi-grid-3x3-gap',
+            ],
+            [
+                'n'           => 10,
+                'titulo'      => 'Plataforma de Encuestas',
+                'descripcion' => 'Crea y responde encuestas, y analiza los resultados.',
+                'ruta'        => 'surveys.index',
+                'icono'       => 'bi-bar-chart',
+            ],
         ];
 
         return view('home/index', [ 'ejercicios' => $ejercicios ]);
